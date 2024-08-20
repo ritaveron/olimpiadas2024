@@ -1,16 +1,15 @@
 .navbar .nav-link i {
-    font-size: 20px; /* Aumentar el tamaño del ícono */
-    margin-right: 8px; /* Agregar espacio entre el ícono y el texto */
-    color: white; /* Asegurar que los íconos coincidan con el tema */
+    font-size: 20px; 
+    margin-right: 8px; 
+    color: white; 
 }
 
 .navbar .nav-link i:hover {
-    color: #74d7c4; /* Cambiar el color del ícono al pasar el mouse para un buen efecto */
+    color: #74d7c4; 
 }
 
-/* Add space between the logo and navigation items */
 .navbar-brand {
-    margin-right: 80px; /* Adjust this value as needed */
+    margin-right: 80px; 
   }
   
   

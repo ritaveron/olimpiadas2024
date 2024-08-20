@@ -6,7 +6,7 @@
 <?php if(!isset($_SESSION['usuario']) || !$_SESSION['usuario']) { ?>
     <script>
         alert("¡Debes iniciar sesión o registrarte para poder comprar!");
-        window.location.href = "login.php"; // Redirige a la página de inicio de sesión
+        window.location.href = "login.php"; 
     </script>
     
 <?php } else { ?>

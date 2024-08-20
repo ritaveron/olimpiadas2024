@@ -1,9 +1,9 @@
 <?php
 session_start();
 if($_SERVER["REQUEST_METHOD"] == "POST"){
-    if(($_POST['usuario']=="Rita")&&($_POST['contrasenia']=="sistema")){
+    if(($_POST['usuario']=="Allsport")&&($_POST['contrasenia']=="informatica4")){
         $_SESSION['usuario']="ok";
-        $_SESSION['nombreUsuario']="Rita";
+        $_SESSION['nombreUsuario']="Allsport";
     header('Location:inicio.php');/*si hay un envio, reediccionar a cierta pagina o documento php*/
     }else{
         $mensaje= "Error: El usuario o contraseña son incorrectos";
