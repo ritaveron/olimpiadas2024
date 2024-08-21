@@ -54,6 +54,7 @@ try {
                 <p class="card-text"><strong></strong> $<?php echo number_format($producto['precio'], 2); ?></p>
 
                 <form action="" method="post">
+                    
                 <input type="hidden" name="id" id="id" value="<?php echo $producto['id'];?>">
                       <input type="hidden" name="nombre" id="nombre" value="<?php echo $producto['nombre'];?>">
                       <input type="hidden" name="precio" id="precio" value="<?php echo $producto['precio'];?>">
