@@ -13,11 +13,14 @@ if (empty($idCategoria)) {
 try {
     $sentenciaSQL = $conexion->prepare("SELECT id, nombre, imagen, precio FROM producto WHERE id_categoria = :id_categoria");
     $sentenciaSQL->bindParam(':id_categoria', $idCategoria, PDO::PARAM_INT);
+
     $sentenciaSQL->execute();
     $listaProducto = $sentenciaSQL->fetchAll(PDO::FETCH_ASSOC);
+    
 
     if (empty($listaProducto)) {
         echo "<div class='alert alert-warning'>No hay productos para esta categoría</div>";
+
         exit;
     }
 } catch (PDOException $e) {
