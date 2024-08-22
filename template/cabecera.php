@@ -40,6 +40,9 @@ session_start();
             <i class='bx bx-user'></i>
           </a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="administrador/index.php">Administrador</a>
+        </li>
       </ul>
     </div>
   </div>
